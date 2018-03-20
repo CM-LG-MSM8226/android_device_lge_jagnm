@@ -48,12 +48,6 @@ BOARD_HAS_NFC := true
 PRODUCT_PACKAGES += \
     FlipFlap
 
-# FM
-PRODUCT_PACKAGES += \
-    FMRadio \
-    brcm-uim-sysfs \
-    libfmjni
-
 # CMActions
 PRODUCT_PACKAGES += \
     CMActions
